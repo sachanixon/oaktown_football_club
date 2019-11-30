@@ -1,0 +1,16 @@
+/* Grey box */
+.background{
+    background-color: #E9E9E9;
+    padding: 20px 50px;
+    margin-bottom: 20px; 
+}
+
+/* Submit button styling */
+.button{
+    background-color: #c61111;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+}

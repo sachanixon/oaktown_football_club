@@ -1,0 +1,23 @@
+
+table {
+      width: 100%;
+}
+th {
+    text-align: center;
+}
+td,th{
+    text-align: center;
+    height:10px;
+    padding:10px;
+}
+th{
+    background-color: #eee;
+
+}
+table, th, td{
+	border: 1px solid white;
+	border-bottom:1px solid red;
+}
+
+
+

@@ -1,0 +1,144 @@
+ /* Header Title */
+header {
+	text-align: center;
+    padding-top: 10px;
+    color: #607b88; 
+}
+
+
+.container {
+	background-position: center top;
+	background-repeat: no-repeat;
+	width:100%;
+} 
+
+
+ /* Font selection */
+a, h4, h3, h2, h1 {
+    font-family: Arial, Helvetica, sans-serif /* H2 font */
+}
+p {
+    font-size: 0.875em; /* 14px/16=0.875em */
+}
+
+
+ /* Navigation */
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-align: center;
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 800px;
+}
+nav{
+    background: #960008;
+    }
+
+li {
+    display: inline-block;
+}
+li a {
+    padding: 10px 10px;
+    margin: 5px;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: hsl(0, 100%, 90%);
+
+}
+li a.active {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #fff;
+}
+
+
+/* White box */
+#white_box {
+	background-color: white;
+	margin: 0 auto;
+    max-width: 800px;
+}
+
+
+/* Background image */
+body{
+    background:url(../images/footballField.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* container for content responsive, add col spec class to div in html for column width */
+.row {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	width:80%;
+	
+}
+
+.row_small {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	width: 50%;
+	
+	
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+* {
+  	box-sizing: border-box;
+  	}
+	[class*="col-"] {
+	float: left;
+    padding: 5px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* For mobile phones: */
+@media only screen and (max-width: 700px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+/* second block of text and image */
+#small_players{
+	float:left;
+}
+table, th, td {
+   font-size: 0.875em; /* 14px/16=0.875em */
+   border: 1px solid black;
+   padding: 10px 5px;
+}
+table {
+    border-collapse: collapse;
+}
+
+
+
+
+
